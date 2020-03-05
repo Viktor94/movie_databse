@@ -1,4 +1,4 @@
-package com.greenfox.movie.services.authorityServices;
+package com.greenfox.movie.services.authority;
 
 import com.greenfox.movie.Filters.JwtRequestFilter;
 import javax.sql.DataSource;

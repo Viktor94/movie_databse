@@ -1,7 +1,7 @@
 package com.greenfox.movie.controllers;
 
 import com.greenfox.movie.Utilities.JwtUtil;
-import com.greenfox.movie.domains.authoritiesDomains.AuthenticationRequest;
+import com.greenfox.movie.domains.authorities.AuthenticationRequest;
 import java.net.URI;
 import java.util.concurrent.ExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;

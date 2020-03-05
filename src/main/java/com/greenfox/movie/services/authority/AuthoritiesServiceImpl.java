@@ -1,6 +1,6 @@
-package com.greenfox.movie.services.authorityServices;
+package com.greenfox.movie.services.authority;
 
-import com.greenfox.movie.domains.authoritiesDomains.Authorities;
+import com.greenfox.movie.domains.authorities.Authorities;
 import com.greenfox.movie.repositories.AuthoritiesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

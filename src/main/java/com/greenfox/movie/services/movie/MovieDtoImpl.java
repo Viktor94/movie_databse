@@ -1,7 +1,7 @@
-package com.greenfox.movie.services.movieServices;
+package com.greenfox.movie.services.movie;
 
-import com.greenfox.movie.domains.movieFindById.Movie;
-import com.greenfox.movie.domains.movieFindById.MovieDTO;
+import com.greenfox.movie.domains.findMovieById.Movie;
+import com.greenfox.movie.domains.findMovieById.MovieDTO;
 import com.greenfox.movie.repositories.MovieRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;

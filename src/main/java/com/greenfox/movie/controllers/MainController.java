@@ -1,6 +1,6 @@
 package com.greenfox.movie.controllers;
 
-import com.greenfox.movie.services.movieServices.MovieDtoService;
+import com.greenfox.movie.services.movie.MovieDtoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

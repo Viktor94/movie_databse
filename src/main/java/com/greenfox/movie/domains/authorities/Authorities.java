@@ -1,4 +1,4 @@
-package com.greenfox.movie.domains.authoritiesDomains;
+package com.greenfox.movie.domains.authorities;
 
 import com.greenfox.movie.domains.User;
 import java.util.List;

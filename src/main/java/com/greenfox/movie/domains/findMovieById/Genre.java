@@ -1,15 +1,15 @@
-package com.greenfox.movie.domains.movieFindById;
+package com.greenfox.movie.domains.findMovieById;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class SpokenLanguage {
+public class Genre {
 
-  @SerializedName("iso_639_1")
+  @SerializedName("id")
   @Expose
-  public String iso6391;
+  public Integer id;
+
   @SerializedName("name")
   @Expose
   public String name;
-
 }

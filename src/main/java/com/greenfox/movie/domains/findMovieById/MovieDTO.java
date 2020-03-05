@@ -1,6 +1,5 @@
-package com.greenfox.movie.domains.movieFindById;
+package com.greenfox.movie.domains.findMovieById;
 
-import com.greenfox.movie.domains.movieFindById.Movie;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import lombok.AllArgsConstructor;

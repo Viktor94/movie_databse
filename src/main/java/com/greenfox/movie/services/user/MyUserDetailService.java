@@ -1,7 +1,7 @@
-package com.greenfox.movie.services.userServices;
+package com.greenfox.movie.services.user;
 
 import com.greenfox.movie.domains.User;
-import com.greenfox.movie.services.authorityServices.AuthoritiesService;
+import com.greenfox.movie.services.authority.AuthoritiesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.security.core.userdetails.User.UserBuilder;

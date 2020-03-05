@@ -1,15 +1,14 @@
-package com.greenfox.movie.domains.movieFindById;
-
+package com.greenfox.movie.domains.findMovieById;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Genre {
+public class ProductionCountry {
 
-  @SerializedName("id")
+  @SerializedName("iso_3166_1")
   @Expose
-  public Integer id;
-
+  public String iso31661;
   @SerializedName("name")
   @Expose
   public String name;
+
 }

@@ -1,4 +1,4 @@
-package com.greenfox.movie.domains.authoritiesDomains;
+package com.greenfox.movie.domains.authorities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

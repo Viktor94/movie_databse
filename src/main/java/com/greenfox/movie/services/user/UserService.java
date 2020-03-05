@@ -1,4 +1,4 @@
-package com.greenfox.movie.services.userServices;
+package com.greenfox.movie.services.user;
 
 import com.greenfox.movie.domains.User;
 
