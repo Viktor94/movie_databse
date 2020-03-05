@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<h1>MovieDatabse</h1>
+
+
+<form action="/logout" method="post">
+  <button type="submit">Log out</button>
+</form>
+
+<h1>Check out your last searches:</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Revenue</th>
+  </tr>
+  <tr th:each="m : ${movies}">
+    <td th:text="${m.title}"></td>
+    <td th:text="${m.revenue}"></td>
+  </tr>
+</table>
+
+</body>
+</html>

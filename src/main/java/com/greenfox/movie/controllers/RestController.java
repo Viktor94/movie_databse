@@ -1,7 +1,7 @@
 package com.greenfox.movie.controllers;
 
-import com.greenfox.movie.domains.Movie;
-import com.greenfox.movie.services.MovieDtoService;
+import com.greenfox.movie.domains.movieFindById.Movie;
+import com.greenfox.movie.services.movieServices.MovieDtoService;
 import com.greenfox.movie.services.RetrofitService;
 import java.io.IOException;
 import okhttp3.OkHttpClient;

@@ -1,7 +1,7 @@
 package com.greenfox.movie.Filters;
 
 import com.greenfox.movie.Utilities.JwtUtil;
-import com.greenfox.movie.services.MyUserDetailService;
+import com.greenfox.movie.services.userServices.MyUserDetailService;
 import java.io.IOException;
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

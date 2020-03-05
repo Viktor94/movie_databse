@@ -1,5 +1,6 @@
 package com.greenfox.movie.domains;
 
+import com.greenfox.movie.domains.authoritiesDomains.Authorities;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,6 +1,6 @@
 package com.greenfox.movie.repositories;
 
-import com.greenfox.movie.domains.Authorities;
+import com.greenfox.movie.domains.authoritiesDomains.Authorities;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
